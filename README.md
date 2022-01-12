@@ -1,6 +1,6 @@
 # Steps to Containerize your app locally and deploy it on Cloud Run
 
-* Prerequisites:
+ ### Prerequisites:
 
    *Install Docker Desktop* 
 	 
@@ -8,20 +8,20 @@
    *Install Cloud SDK Shell*
                       
                       
-To  deploy a Web App on Cloud Run, you need to follow these steps:
+## To  deploy a Web App on Cloud Run, you need to follow these steps:
 
-   **1. Create a Google Cloud project**
+   1. Create a Google Cloud project**
  
-   **2. Create a Flutter WebApp project**
+   2. Create a Flutter WebApp project**
  
-   **3. Containerizing the WebApp locally**
+   3. Containerizing the WebApp locally**
  
-   **4. Deploy the image on Cloud Run**
- 
- 
+   4. Deploy the image on Cloud Run**
  
  
-## 1.	Create a Google Platform Project
+ 
+ 
+### 1.	Create a Google Platform Project
          
    a.	  Create a Google cloud console account
    
@@ -32,7 +32,7 @@ To  deploy a Web App on Cloud Run, you need to follow these steps:
    d.	  Create your first project
     
     
-## 2.	Create a Flutter Web App project
+### 2. Create a Flutter Web App project
 
    a.	  Create a Flutter project or use a existing project
   
@@ -41,7 +41,7 @@ To  deploy a Web App on Cloud Run, you need to follow these steps:
    c.	  Create a server Directory and a server.sh file inside the server folder 
 
 
-##  3.	Containerizing the WebApp locally
+### 3.	Containerizing the WebApp locally
 
    a.	  Now your Directory structure might look like this
    
@@ -71,7 +71,7 @@ To  deploy a Web App on Cloud Run, you need to follow these steps:
    e.	Proceed to view the application on localhost:8080 on your browser.
  
 
-##  4.	Push the image to Container Registry
+### 4.	Push the image to Container Registry
 
    a.	Open your Cloud sdk
     
@@ -112,7 +112,7 @@ To  deploy a Web App on Cloud Run, you need to follow these steps:
 
  
 
-##  5.	Deploy Docker image to Cloud Run
+### 5.	Deploy Docker image to Cloud Run
 
    a.	You can deploy a container image that is stored in the Container Registry in the same project. 
 	 Go to Cloud Platform > Navigation menu > Cloud Run > Create Service
